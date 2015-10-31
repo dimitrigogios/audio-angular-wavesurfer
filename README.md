@@ -17,7 +17,8 @@ I haven't used ngAudio!
 
 ## Grunt and Bower in this project
 This repository comes with bower-packages to all that is need for this to work.<br/>
-!! 31-10-2015 note, wavesurfer file is an older stable version. It get downloaded from bower, but I don't use in my grunt.
+!! 31-10-2015 note, the wavesurfer.js file is an older stable version. It gets downloaded from bower install, but I don't use in my grunt.<br/>
+(there was a bug in the newest wave.js-plugin at the time I was writing this. It has probably been fixed!)
 ```lisp
 npm install
 ```

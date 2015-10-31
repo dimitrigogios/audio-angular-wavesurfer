@@ -44,7 +44,7 @@
                     <div class="line no-margin">
                         <header>
                             <h1 itemprop="name">
-                                Angular Audio element, featuring wavesurfer.js
+                                Audio element in Angular list, featuring wavesurfer.js
                             </h1>
                         </header>
                         <p>
