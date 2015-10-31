@@ -1,0 +1,31 @@
+{
+  "name": "DimitriGogios",
+  "version": "0.0.1",
+  "description": "Webdeveloper",
+  "devDependencies": {},
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "Webdeveloper"
+  ],
+  "authors": [
+    "Dimitri Gogios"
+  ],
+  "license": "MIT",
+  "homepage": "www.DimitriGogios.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "angular": "~1.4.6",
+    "angular-route": "~1.4.6",
+    "angular-touch": "~1.4.5"
+  }
+}

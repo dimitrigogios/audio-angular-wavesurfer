@@ -1,0 +1,61 @@
+//
+.wavesurfer {
+	height: 90px;
+	margin-bottom: 10px;
+	display: block !important;
+
+	&:empty {
+		background-color: #f6d285;
+	}	
+}
+	.audio-track {
+		background-color: #4bc1d2;
+		//border: 1px solid #000;
+		padding: 10px 10px 5px;
+	}
+		.audio-title {
+			margin-top: 11px;
+			color: #fff;
+		}
+
+	.timeline {
+		background-color: #215a62;
+		height: 13px;
+
+		.playhead {
+			background-color: #29f4f6;
+			width: 17px;
+			height: 17px;
+			top: -2px;
+			border-radius: 3px;
+		}
+		.progress-line {
+			left: 0;
+			top: 0;
+			display: block !important;
+			background-color: #e5a213;
+			height: 13px;
+		}
+	}
+
+	.audio-buttons {
+		span {
+			font-size: 30px;
+			color: #127886;
+			-webkit-user-select: none;
+    	   	   -moz-user-select: none;
+
+    	   	&:hover {
+    	   		color: #0d5862;
+    	   	}
+		}
+		span.fastbackward-btn,
+		span.fastforward-btn {
+			font-size: 20px;
+			top: -3px;
+		}
+		span.play-btn,
+		span.plause-btn {
+			width: 26px;
+		}
+	}
