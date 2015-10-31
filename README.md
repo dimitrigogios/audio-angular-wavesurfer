@@ -1,6 +1,6 @@
 ![Screenshot](upload/audio-angular-wavesurfer.jpg?raw=true "Screenshot")
 
-## Audio Angular Element, featuring wavesurfer.js
+## Audio element in Angular list, featuring wavesurfer.js
 Se my working example, [Audio Angular Element](http://dimitrigogios.com/code-blocks/audio-angular-wavesurfer/)!
 
 ## Why my awesome Audio Angular controller
@@ -12,14 +12,19 @@ So.
 <br/>
 ## Finding code examples to work for my Audio Angular controller
 For the audio controls I found a fairly easy-to-understand example on CodePen to work with, by Alex Katz, and another really nice audio plugin, wavesurfer.js by katspaugh, giving me better callback events to work with.<br/>
-After a bit of time of tumbling with the code I mixed all the code together and got a working Angular loaded list of audio elements.
+After a bit of time of tumbling with the code I mixed all the code together and got a working Angular loaded list of audio elements.<br/>
+I haven't used ngAudio!
 
 ## Grunt and Bower in this project
+This repository comes with bower-packages to all that is need for this to work.<br/>
+!! 31-10-2015 note, wavesurfer file is an older stable version. It get downloaded from bower, but I don't use in my grunt.
 ```lisp
 npm install
 ```
-This repository comes with bower-packages to all that is need for this to work.
-!! 31-10-2015 note, wavesurfer file is an older stable version. It get downloaded from bower, but I don't use in my grunt.
+then
+```lisp
+bower install
+```
 
 ## Wavesurfer.js
 If you want to see the documentation for the cool wavesurfer.js plugin, you can visit Katspaugh's [repository](https://github.com/katspaugh/wavesurfer.js/)
