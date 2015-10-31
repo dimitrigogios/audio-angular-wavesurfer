@@ -38,7 +38,7 @@ Custom html5 audio controls by <br/>
 Wavesurfer.js plugin by<br/>
 [Katspaugh](https://github.com/katspaugh/wavesurfer.js/)
 
-Audio examples are free audio-samples from [SpencerCork](http://www.spencercork.co.uk/freestuff.html)!
+Free audio-samples from [SpencerCork](http://www.spencercork.co.uk/freestuff.html)!
 
 ## License
 
