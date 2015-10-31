@@ -11,6 +11,9 @@ So.
 For the audio controls I found a fairly easy-to-understand example on CodePen to work with, by Alex Katz, and another really nice audio plugin, wavesurfer.js by katspaugh, giving me better callback events to work with. <span class="size12">(se my <a href="https://github.com/dimitrigogios" target="_blank">github</a> for credits)</span><br/>
 After a bit of time of tumbling with the code I mixed all the code together and got a working Angular loaded list of audio elements.
 
+## Wavesurfer.js
+If you want to see the documentation for the cool wavesurfer.js plugin, you can visit [Katspaugh](https://github.com/katspaugh/wavesurfer.js/)'s repository
+
 ## Credits
 
 Custom html5 audio controls by <br/>
