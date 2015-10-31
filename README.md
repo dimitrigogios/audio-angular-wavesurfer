@@ -11,10 +11,10 @@ After a bit of time of tumbling with the code I mixed all the code together and 
 
 ## Credits
 
-Custom html5 audio controls by
-[Alex Katz][http://codepen.io/katzkode/pen/Kfgix]
+Custom html5 audio controls by <br/>
+[Alex Katz](http://codepen.io/katzkode/pen/Kfgix)!
 
-Wavesurfer.js plugin, thanks to
+Wavesurfer.js plugin, thanks to<br/>
 [Katspaugh](https://github.com/katspaugh/wavesurfer.js/contributors)!
 
 ## License
