@@ -1,5 +1,8 @@
 ![Screenshot](upload/audio-angular-wavesurfer.jpg?raw=true "Screenshot")
 
+## Audio Angular Element, featuring wavesurfer.js
+Se my working example, [Audio Angular Element](http://dimitrigogios.com/code-blocks/audio-angular-wavesurfer/)!
+
 ## Why my awesome Audio Angular controller
 I wanted to mess around a bit with the html audio element. Build my own audio controls, timeline-scroller, forward-, backward- , pause- and play buttons. A premise was also that the list of would-be-audio elements was loaded with AngularJS.<br />
 There are some audio plugins and audio code examples out there, but I couldn't find custom audio controls that could work out of the box on an Angular loaded list, especially the bit about the timeline control.<br/>
@@ -10,6 +13,13 @@ So.
 ## Finding code examples to work for my Audio Angular controller
 For the audio controls I found a fairly easy-to-understand example on CodePen to work with, by Alex Katz, and another really nice audio plugin, wavesurfer.js by katspaugh, giving me better callback events to work with.<br/>
 After a bit of time of tumbling with the code I mixed all the code together and got a working Angular loaded list of audio elements.
+
+## Grunt and Bower in this project
+```lisp
+npm install
+```
+This repository comes with bower-packages to all that is need for this to work.
+!! 31-10-2015 note, wavesurfer file is an older stable version. It get downloaded from bower, but I don't use in my grunt.
 
 ## Wavesurfer.js
 If you want to see the documentation for the cool wavesurfer.js plugin, you can visit Katspaugh's [repository](https://github.com/katspaugh/wavesurfer.js/)
