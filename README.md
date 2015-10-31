@@ -1,3 +1,5 @@
+![Screenshot](upload/audio-angular-wavesurfer.jpg?raw=true "Screenshot")
+
 ## Why my awesome Audio Angular controller
 I wanted to mess around a bit with the html audio element. Build my own audio controls, timeline-scroller, forward-, backward- , pause- and play buttons. A premise was also that the list of would-be-audio elements was loaded with AngularJS.<br />
 There are some audio plugins and audio code examples out there, but I couldn't find custom audio controls that could work out of the box on an Angular loaded list, especially the bit about the timeline control.<br/>
@@ -12,10 +14,10 @@ After a bit of time of tumbling with the code I mixed all the code together and 
 ## Credits
 
 Custom html5 audio controls by <br/>
-[Alex Katz](http://codepen.io/katzkode/pen/Kfgix)!
+[Alex Katz](http://codepen.io/katzkode/pen/Kfgix)
 
-Wavesurfer.js plugin, thanks to<br/>
-[Katspaugh](https://github.com/katspaugh/wavesurfer.js/contributors)!
+Wavesurfer.js plugin by<br/>
+[Katspaugh](https://github.com/katspaugh/wavesurfer.js/)
 
 ## License
 
