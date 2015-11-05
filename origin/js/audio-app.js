@@ -229,9 +229,13 @@
 
             // load the wavesurfer plugin with the correct url
             loadWaveSurfer(activeUrl);
+            //$scope.$apply();
 
-            // start the actual audio element
-            $scope.wavesurfer.play(getElementsTime(id));
+            // start the actual audio element when wavesurfer has finished loading
+            $scope.wavesurfer.on('ready', function () {
+                $scope.wavesurfer.play(getElementsTime(id));
+            });
+            //
         }
             // the play button has been pressed, 3 events need to listen to
             $scope.$on('playerPressed', function (e, wavesurfer) {

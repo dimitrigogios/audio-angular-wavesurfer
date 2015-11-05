@@ -33,7 +33,8 @@ var WaveSurfer = {
         mediaControls : false,
         renderer      : 'Canvas',
         backend       : 'WebAudio',
-        mediaType     : 'audio'
+        mediaType     : 'audio',
+        autoCenter    : true
     },
 
     init: function (params) {
@@ -271,6 +272,7 @@ var WaveSurfer = {
         this.seekAndCenter(
             this.getCurrentTime() / this.getDuration()
         );
+        this.fireEvent('zoom', pxPerSec);
     },
 
     /**

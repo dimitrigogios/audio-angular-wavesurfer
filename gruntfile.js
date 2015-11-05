@@ -66,8 +66,8 @@ module.exports = function(grunt) {
                 src : ['./origin/js/components/jquery/*.js',
                        './origin/js/components/angular/angular.min.js',
                        './origin/js/components/angular/angular.route.min.js',
-                       './origin/js/components/angular/angular.touch.min.js'],
-                       //'./origin/js/components/wavesurfer/wavesurfer.min.js'],
+                       './origin/js/components/angular/angular.touch.min.js',
+                       './origin/js/components/wavesurfer/wavesurfer.min.stable.js'],
                 dest : 'properties/js/libs.min.js'
             }
         },
