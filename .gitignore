@@ -28,4 +28,3 @@ Gemfile.lock
 node_modules
 npm-debug.log
 .grunt
-index.php
